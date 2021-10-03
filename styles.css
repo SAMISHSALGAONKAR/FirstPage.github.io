@@ -1,0 +1,21 @@
+body{
+	background-image: url('/img/bg.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	backdrop-filter:blur(5px);
+	margin: 0 0;
+}
+
+div{
+	border-style:solid;
+	border-color:black;
+	padding:20px;
+	color:white;
+	background-color: #363a3d;
+	border-style: solid;
+	border-radius: 10px;
+	border-color: white;
+	font-size: 1.3rem;
+	display:inline-block;
+}
