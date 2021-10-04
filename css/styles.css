@@ -4,7 +4,12 @@
 	font-weight: 700;
 	font-family:poppins ;
 }
-body{
+
+.formtxt{
+	font-size: 20px;
+}
+
+.page{
 	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url('../img/bg.jpg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -14,7 +19,14 @@ body{
 	height: 100%;
 }
 
-html {
+.main{
+		background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url('../img/bg.jpg');
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+}
+
+.middle{
     display: table;
     margin: auto;
     height: 100%;
@@ -29,7 +41,6 @@ html {
 	border-style: solid;
 	border-radius: 10px;
 	border-color: white;
-	font-size: 1.3rem;
 	display:inline-block;
 	margin-left:auto;
 }
@@ -48,7 +59,7 @@ button{
 input{
 	border-style: solid;
 	border-radius: 7px;
-	font-size: 20px;
+	
 }
 
 
@@ -56,4 +67,34 @@ input{
 width:100%;
 font-size:20px;
 text-align:center;
+}
+
+.main{
+	color:white;
+}
+.main header{
+	font-size: 60px;
+	float:left;
+	display: block;
+
+}
+.main span{
+	color: #15ff00;
+	
+}
+
+.main li{
+	font-size: 30px;
+	float: right;
+	display: inline-block;
+	margin: 10px;
+
+}
+.main header{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.main li a{
+	color:white;
 }
