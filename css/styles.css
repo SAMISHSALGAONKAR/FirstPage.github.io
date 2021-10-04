@@ -1,10 +1,15 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-weight: 700;
+	font-family:poppins ;
+}
 body{
-	background-image: url('../img/bg.jpg');
+	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url('../img/bg.jpg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 	display: table-cell;
-    margin: 0 0;
 	vertical-align: middle;
 	height: 100%;
 }
@@ -15,16 +20,40 @@ html {
     height: 100%;
 }
 
-div{
+.banner{
 	border-style:solid;
 	border-color:black;
 	padding:20px;
 	color:white;
-	background-color: #363a3d;
+	background-color: #272727;
 	border-style: solid;
 	border-radius: 10px;
 	border-color: white;
 	font-size: 1.3rem;
 	display:inline-block;
 	margin-left:auto;
+}
+
+h1{
+	text-align: center;
+}
+button{
+	background-color: white;
+	color:black;
+	border-style: solid;
+	border-radius: 7px;
+	padding:3px;
+}
+
+input{
+	border-style: solid;
+	border-radius: 7px;
+	font-size: 20px;
+}
+
+
+.btn{
+width:100%;
+font-size:20px;
+text-align:center;
 }
