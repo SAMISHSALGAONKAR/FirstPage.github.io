@@ -20,10 +20,10 @@
 }
 
 .main{
-		background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url('../img/bg.jpg');
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		background-size: cover;
+	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url('../img/bg.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:cover;
 }
 
 .middle{
@@ -59,7 +59,7 @@ button{
 input{
 	border-style: solid;
 	border-radius: 7px;
-	
+	font-size: 20px;
 }
 
 
@@ -68,33 +68,56 @@ width:100%;
 font-size:20px;
 text-align:center;
 }
-
 .main{
-	color:white;
+	color: white;
 }
-.main header{
-	font-size: 60px;
-	float:left;
-	display: block;
 
+.main header{
+	position: sticky;
+	font-size: 32px;
+	column-rule:black;
+	/* background-color:#2e3235; */
+	width: 100%;
+	padding-left: 15px;
 }
+
 .main span{
 	color: #15ff00;
-	
 }
 
-.main li{
-	font-size: 30px;
+label{
+	font-size: 25px;
+}
+
+.menu{
+	font-size: 22px;
+	position: relative;
+	display: inline;
 	float: right;
-	display: inline-block;
-	margin: 10px;
-
-}
-.main header{
-	margin-left: 20px;
-	margin-right: 20px;
+	padding-right: 35px;
 }
 
-.main li a{
+.main a{
 	color:white;
+	text-decoration: none;
+	margin: 3px;
+	background-color: ;
+}
+
+
+#homepage img{
+	width: 70%;
+	float: right;
+	height: 600px;
+	margin-top: 100px;
+	margin-left: 500px;
+}
+
+.content{
+	position: absolute;
+	width: 100%;
+	top: 40%;
+	font-size: 50px;
+	margin-left: 20px;
+	float: left;
 }
