@@ -5,21 +5,48 @@
 <link rel="stylesheet" href="css/styles.css">
 </head>
 
-<body class="page">
+<body class="page main">
 
-<div class="banner">
-<!-- Log In Form -->
-<h1>Log In</h1><br>
-<form class="formtext">
-<label>Email: <input type="email" placeholder=" Email address" required></label>
-<label>Password: <input type="password" required pattern=".{6,}" placeholder=" Password" title="Minimum length should be 6"></label><br>
-<br><button class="btn"> Log In </button>
-<br><br><hr><br>
-</form>
-<a href="signup.html"><button class="btn"> Create a New Account </button></a><br>
-<!-- End Log In Form -->
+    <div>            
+        <header>
+            <div style=" display: flex;justify-content:space-between;margin:auto;">
+                <div>
+                        <a href="index.html">Graphics<span style="color:red;margin:0;">House</span></a>
+                </div>
+                <div id="menu">
+                <a href="signup.html">SignUp</a>
+                <a href="login.html">LogIn</a>
+                <a href="delete.html">DeleteProduct</a>
+                <a href="add.html">AddProduct</a>
+                <a href="update.html">UpdateProduct</a>
+                </div>      
+            </div>
+                     
+        </header>  
+   
+     </div> 
+     <!-- Log In Form -->
+     <div class="banner" style="display: flex;justify-content: center;flex-direction:column;padding: 5px;width: 70%;margin-top:5%;">
 
+    
+        <h1>Log In</h1><br>
+        <form >
+            <label>Email: <input type="email" placeholder=" Email address" required></label>
+            <label>Password: <input type="password" required pattern=".{6,}" placeholder=" Password" title="Minimum length should be 6"></label><br>
+            
+            <br><div style="display:flex;justify-content: center;margin:10px" >
+                <button class="btn"> Log In </button>
+            </div>
+            <hr>
+        </form>
 
-</div>
+        <div style="display:flex;justify-content: center;margin:10px" >
+            <a href="signup.html"><button class="btn"> Create a New Account </button></a><br>
+        </div>
+       
+    </div>
+
+     <!-- End Log In Form -->
+<footer style="text-align:center;">Designed by 18co42</footer>
 </body>
 </html>

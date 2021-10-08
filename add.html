@@ -1,33 +1,88 @@
 <html class="middle">
 <head>
 <title>Add Page</title>
-
 <link rel="stylesheet" href="css/styles.css">
 </head>
 
-<body class="page">
+<body class="page main">
+  <div>            
+    <header>
+        <div style=" display: flex;justify-content:space-between;margin:auto;">
+            <div>
+                    <a href="index.html">Graphics<span style="color:red;margin:0;">House</span></a>
+            </div>
+            <div id="menu">
+            <a href="signup.html">SignUp</a>
+            <a href="login.html">LogIn</a>
+            <a href="delete.html">DeleteProduct</a>
+            <a href="add.html">AddProduct</a>
+            <a href="update.html">UpdateProduct</a>
+            </div>      
+        </div>
+                 
+    </header>  
 
-<div class="banner">
-<!-- Add Form -->
-<h1>Add Product</h1><br>
-<form class="formtxt">
-<label>Product Id: <input type="text" required placeholder=" Product	Id"></label>
-<label>Manufacturer Name: <input type="text" placeholder=" Manufacturer Name" required></label>
-<br><label>Price: <input type="text" placeholder=" Price" required></label>
-<br><label>Memory Type: <input type="text" placeholder=" Memory Type" required></label>
-<br><label>Memory Size: <input type="text" placeholder=" Memory Size" required></label>
-<br><label>GPU: <input type="text" placeholder=" GPU Name" required></label>
-<br><label>Core Count: <input type="text" placeholder=" Core Count" required></label>
-<br><label>Memory Bandwidth: <input type="text" placeholder=" Memory Bandwidth" required></label>
-<br><label>Core Clock Speed: <input type="text" placeholder=" Core Clock Speed" required></label>
-<br><label>Motherboard Interface: <input type="text" placeholder=" Motherboard Interface" required></label>
+ </div> 
 
-</form>
+ <div class="banner" style="display: flex;justify-content: center;flex-direction:column;padding: 5px;width: 50%;margin-top:3%;">
+  <!-- Add Form -->
+  <h1>Add Product</h1><br>
+  <form class="formtxt">
+      <div>
+              <table>
+                <tr>
+                  <td><label for="pid">Product Id: </label></td>
+                  <td><input type="text" required placeholder=" Product id" id="pid"></td>
+                <tr>
+                  <td><label>Manufacturer Name: </label></td>
+                  <td><input type="text" placeholder=" Manufacturer Name" required></td>
+                </tr>
+                <tr>
+                  <td><label>Price: </label></td>
+                  <td> <input type="text" placeholder=" Price" required></td>
+                </tr>
+                <tr>
+                  <td><label>Memory Type: </label></td>
+                  <td> <input type="text" placeholder=" Memory Type" required></td>
+                </tr>
+                <tr>
+                  <td><label>Memory Size: </label></td>
+                  <td><input type="text" placeholder=" Memory Size" required></td>
+                </tr>
+                <tr>
+                  <td><label>GPU: </label></td>
+                  <td><input type="text" placeholder=" GPU Name" required></td>
+                </tr>
+                <tr>
+                  <td><label>Core Count: </label></td>
+                  <td><input type="text" placeholder=" Core Count" required></td>
+                </tr>
+                <tr>
+                  <td><label>Memory Bandwidth: </label></td>
+                  <td><input type="text" placeholder=" Memory Bandwidth" required></td>
+                </tr>
+                <tr>
+                  <td><label>Core Clock Speed: </label></td>
+                  <td><input type="text" placeholder=" Core Clock Speed" required></td>
+                </tr>
+                <tr>
+                  <td><label>Motherboard Interface: </label></td>
+                  <td><input type="text" placeholder=" Motherboard Interface" required></td>
+                </tr>
 
-<br><hr><br><button class="btn">Add</button><br>
-<!-- End Sign Up Form -->
+              </table>
+
+      </div>
+  
+  </form> <br><hr>
+  <div style="display:flex;justify-content: center;margin:10px" >
+   <br><button class="btn">Add</button>
+  </div>
+  
+  <!-- End Sign Up Form -->
 
 
-</div>
+  </div>
+  <footer style="text-align:center;">Designed by 18co42</footer>
 </body>
 </html>

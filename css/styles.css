@@ -1,49 +1,14 @@
 *{
-	margin: 0;
+	margin: 0 10px;
 	padding: 0;
 	font-weight: 700;
-	font-family:poppins ;
+	font-family:poppins;
+	color: black;
+}
+.signup{
+	background-color: beige;
 }
 
-.formtxt{
-	font-size: 20px;
-}
-
-.page{
-	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url('../img/bg.jpg');
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
-	display: table-cell;
-	vertical-align: middle;
-	height: 100%;
-}
-
-.main{
-	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url('../img/bg.jpg');
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size:cover;
-}
-
-.middle{
-    display: table;
-    margin: auto;
-    height: 100%;
-}
-
-.banner{
-	border-style:solid;
-	border-color:black;
-	padding:20px;
-	color:white;
-	background-color: #272727;
-	border-style: solid;
-	border-radius: 10px;
-	border-color: white;
-	display:inline-block;
-	margin-left:auto;
-}
 
 h1{
 	text-align: center;
@@ -64,60 +29,73 @@ input{
 
 
 .btn{
-width:100%;
 font-size:20px;
-text-align:center;
 }
+
 .main{
-	color: white;
+	/* background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url('../img/bg.jpg'); */
+	background-color: beige;
+	/* background-color: #9DC88D; */
+	/* background-color: #E8CEBF; */
 }
-
 .main header{
-	position: sticky;
 	font-size: 32px;
-	column-rule:black;
-	/* background-color:#2e3235; */
-	width: 100%;
-	padding-left: 15px;
-}
-
-.main span{
-	color: #15ff00;
 }
 
 label{
 	font-size: 25px;
+	color:black;
 }
 
-.menu{
-	font-size: 22px;
-	position: relative;
-	display: inline;
-	float: right;
-	padding-right: 35px;
+#menu{
+	font-size: 20px;
+	margin:auto 0;
 }
 
 .main a{
-	color:white;
+	color:black;
 	text-decoration: none;
 	margin: 3px;
-	background-color: ;
 }
 
 
 #homepage img{
-	width: 70%;
-	float: right;
-	height: 600px;
-	margin-top: 100px;
+	width: 100%;
+	height: 500px;
+	margin-top: 50px;
 	margin-left: 500px;
 }
 
-.content{
-	position: absolute;
-	width: 100%;
-	top: 40%;
-	font-size: 50px;
-	margin-left: 20px;
-	float: left;
+footer{
+	position:relative;
+	bottom:0;
+}
+
+
+.banner{
+	padding:50px;
+	color:black;
+	display:inline-block;
+	margin:0 auto;
+}
+
+.banner img{
+	border-radius: 10px;
+	height: 500;
+	margin:auto;
+}
+
+.banner p{
+	text-align: center;
+}
+
+.page .banner{
+	border:3px solid black;
+	border-radius: 10px;;
+}
+
+
+hr{
+	border: 1px solid black;
+	background-color: black;"
 }

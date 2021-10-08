@@ -1,33 +1,49 @@
 <html>
 <head>
 <title>Home Page</title>
-
+<style>
+footer{
+text-transform:uppercase;
+}
+</style>
 <link rel="stylesheet" href="css/styles.css">
 </head>
 <!-- Home Page Form -->
 <body class="main">
-<div>
-
-<header><a href="#home">Graphics<span>House</span></a>
-        <div class="menu">
+<div>            
+<header>
+    <div style=" display: flex;justify-content:space-between;margin:auto;">
+        <div>
+                <a href="index.html">Graphics<span style="color:red;margin:0;">House</span></a>
+        </div>
+        <div id="menu">
         <a href="signup.html">SignUp</a>
         <a href="login.html">LogIn</a>
         <a href="delete.html">DeleteProduct</a>
         <a href="add.html">AddProduct</a>
         <a href="update.html">UpdateProduct</a>
-        </div>
+        </div>      
+    </div>
+             
 </header>
 </div>
 
-<div class="content">
+<div class="banner" style="display: flex;justify-content: center;">
+       
+       <div style="font-size:35px; margin:auto;">
+               <p>
+                GEFORCE RTX 30 SERIES <br>
+                <span style="font-size:25px;color:red;">THE ULTIMATE PLAY</span>    <br>
+                <!-- <span style="font-size:10px;">GeForce RTX™ 30 Series GPUs deliver the ultimate performance for gamers and creators. They’re powered by Ampere—NVIDIA’s 2nd gen RTX architecture—with new RT Cores, Tensor Cores, and streaming multiprocessors for the most realistic ray-traced graphics and cutting-edge AI features.</span>    <br> -->
+                <button style="font-size: 20px;">shop now</button>
+               </p>  
+       </div> 
+       <div>
+                <img src="rtx3.jpg">
+       </div>
+</div>
 
-        <p>RTX. IT'S ON.<br></p>
-</div>
-<div>
-        <div id="homepage"> 
-                <img src="../img/rtx1.jpg" alt="HELLO">
-        </div>
-</div>
+<footer style="	text-align: center;">Designed by 18co42</footer>
  <!-- Home Page Form -->
 </body>
 </html>
