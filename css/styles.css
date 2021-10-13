@@ -1,5 +1,5 @@
 *{
-	margin: 0 10px;
+	margin:0 10px;
 	padding: 0;
 	font-weight: 700;
 	font-family:poppins;
@@ -8,7 +8,6 @@
 .signup{
 	background-color: beige;
 }
-
 
 h1{
 	text-align: center;
@@ -27,17 +26,28 @@ input{
 	border-radius: 7px;
 	font-size: 20px;
 }
+input[type=checkbox]:checked{
+	color: rgb(4, 4, 5);
+}
 
 ::placeholder{
 	font-weight: 400;
 	color: black;
 }
 
-
 .btn{
 font-size:20px;
 }
 
+#offer{
+	text-align: center;
+		font-size: 12px;;
+		background-color: rgb(224, 224, 113);
+		color: red;
+		position: sticky;
+		position: -webkit-sticky;
+		top: 0;
+}
 .main{
 	/* background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url('../img/bg.jpg'); */
 	background-color: beige;
@@ -72,12 +82,18 @@ label{
 	margin-left: 500px;
 }
 
-footer{
-	position:relative;
-	bottom:0;
-}
-
-
+.footer {
+	position: relative;
+	left: 0;
+	bottom: 0;
+	top: 10%;
+	width: 100%;
+	background-color: rgb(224, 224, 113) ;
+	text-align: center;
+	height: 15%;
+	font-size: 20px;
+	align-content: center;
+  }
 .banner{
 	padding:50px;
 	color:black;
@@ -98,7 +114,7 @@ footer{
 .page .banner{
 	border:3px solid black;
 	border-radius: 10px;
-	background-color: rgb(238, 238, 175);;
+	background-color: rgb(238, 238, 175);
 }
 
 
@@ -118,7 +134,7 @@ hr{
 	gap: 30px 30px;
 }
 .items{
-	border: 2px solid rgb(224, 224, 113);;
+	border: 2px solid rgb(143, 143, 67);;
 	border-radius: 10px;
 	width: 30%;
 	display: flex;
@@ -126,7 +142,7 @@ hr{
 	vertical-align: top;
 	text-align: center;
 	flex-direction:column;
-	background-color: rgb(224, 224, 113);
+	background-color: rgb(238, 238, 175);
 }
 .product img{
 	border-radius: 10px;
