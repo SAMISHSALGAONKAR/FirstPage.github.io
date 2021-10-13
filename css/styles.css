@@ -14,7 +14,7 @@ h1{
 	text-align: center;
 }
 button{
-	background-color: white;
+	background-color: rgb(224, 224, 113);
 	color:black;
 	border-style: solid;
 	border-radius: 7px;
@@ -22,9 +22,15 @@ button{
 }
 
 input{
+	background-color: rgb(224, 224, 113);
 	border-style: solid;
 	border-radius: 7px;
 	font-size: 20px;
+}
+
+::placeholder{
+	font-weight: 400;
+	color: black;
 }
 
 
@@ -91,7 +97,8 @@ footer{
 
 .page .banner{
 	border:3px solid black;
-	border-radius: 10px;;
+	border-radius: 10px;
+	background-color: rgb(238, 238, 175);;
 }
 
 
@@ -99,3 +106,36 @@ hr{
 	border: 1px solid black;
 	background-color: black;"
 }
+
+
+.product{
+	display: flex;
+	justify-content: center;
+	vertical-align: top;
+	text-align: center;
+	flex-direction: row;
+	margin:50px;
+	gap: 30px 30px;
+}
+.items{
+	border: 2px solid rgb(224, 224, 113);;
+	border-radius: 10px;
+	width: 30%;
+	display: flex;
+	justify-content: center;
+	vertical-align: top;
+	text-align: center;
+	flex-direction:column;
+	background-color: rgb(224, 224, 113);
+}
+.product img{
+	border-radius: 10px;
+	margin:0 0;
+
+}
+
+.items div{
+	color: rgb(0, 0, 0);
+	margin: 10px 0;
+}
+
