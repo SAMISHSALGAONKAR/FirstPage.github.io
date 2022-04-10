@@ -1,0 +1,75 @@
+<html>
+<head>
+<title>Sign Up</title>
+
+<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="page main">
+    <div>            
+        <header>
+            <div style=" display: flex;justify-content:space-between;margin:auto;">
+                <div>
+                        <a href="index.html">Graphics<span style="color:red;margin:0;">House</span></a>
+                </div>
+                <div id="menu">
+                <a href="signup.html">SignUp</a>
+                <a href="login.html">LogIn</a>
+                <a href="delete.html">DeleteProduct</a>
+                <a href="add.html">AddProduct</a>
+                <a href="update.html">UpdateProduct</a>
+                </div>      
+            </div>
+                     
+        </header>
+     </div>
+<div class="banner" style="display: flex;justify-content: center;flex-direction:column;padding: 5px;width: 70%;margin-top:5%;">
+<!-- Sign Up Form -->
+<h1>Sign Up</h1><br>
+<form >
+    <label>Name: <input type="text" placeholder=" First Name" required></label>
+    <label>Surname: <input type="text" placeholder=" Surname" required></label><br>
+    <label>Email: <input type="email" placeholder=" Email address" required></label>
+    <label>Mobile: <input type="tel" placeholder=" Mobile Number" required pattern="[0-9]{10}" title="Enter valid 10 digit number"></label>
+    <br><label>Gender: <input type="radio" name="Gender" value="male"> Male <input type="radio" name="Gender" value="female"> Female <input type="radio" name="Gender" value="other"> Other</label>
+
+<br>
+<label>Country:</label>
+
+<select>
+   <option value="India">India</option>
+   <option value="Iran">Iran</option>
+   <option value="Iraq">Iraq</option>
+   <option value="Ireland">Ireland</option>
+   <option value="Isle of Man">Isle of Man</option>
+   <option value="Israel">Israel</option>
+</select>
+
+    <br><label>Password: <input type="password" required pattern=".{6,}" title="Minimum length should be 6"></label>
+    <br><input type="checkbox" name=""> I agree to the terms and Conditions
+    <br><button style="width:50%;" class="btn">Sign Up</button><input type="reset"  style="width:20%;margin-left:20px"><br>
+</form>
+<br><hr>
+<div style="display:flex;justify-content: center;margin:10px" >
+    <a href="login.html"><button class="btn" >Already have an account ?  Log in</button></a><br>
+</div>
+
+<!-- End Sign Up Form -->
+
+</div>
+
+<div class="footer">
+
+    <footer >
+        <p>
+                Designed by 18co42
+                <br>
+                Copyright © 2021
+
+        </p>
+
+    </footer>
+
+</div>
+</body>
+</html>

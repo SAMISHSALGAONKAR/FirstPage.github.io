@@ -14,24 +14,46 @@
                 </div>
                 <div id="menu">
                 <a href="signup.html">SignUp</a>
-                <a href="login.html">LogIn</a>
-                <a href="delete.html">DeleteProduct</a>
-                <a href="add.html">AddProduct</a>
-                <a href="update.html">UpdateProduct</a>
+        		<a href="login.html">LogIn</a>
+        		<a href="delete.html">DeleteProduct</a>
+        		<a href="add.html">AddProduct</a>
+        		<a href="update.html">UpdateProduct</a>
+        		<a href="product.html">Products</a>
                 </div>      
             </div>
                      
         </header>
      </div>
 <div class="banner" style="display: flex;justify-content: center;flex-direction:column;padding: 5px;width: 70%;margin-top:5%;">
+	
 <!-- Sign Up Form -->
 <h1>Sign Up</h1><br>
 <form >
-    <label>Name: <input type="text" placeholder=" First Name" required></label>
-    <label>Surname: <input type="text" placeholder=" Surname" required></label><br>
-    <label>Email: <input type="email" placeholder=" Email address" required></label>
-    <label>Mobile: <input type="tel" placeholder=" Mobile Number" required pattern="[0-9]{10}" title="Enter valid 10 digit number"></label>
-    <br><label>Gender: <input type="radio" name="Gender" value="male"> Male <input type="radio" name="Gender" value="female"> Female <input type="radio" name="Gender" value="other"> Other</label>
+     <table>
+                <tr>
+                  <td><label>Name: </label></td>
+                  <td><input type="text" placeholder=" First Name" required></td>
+                  <td><label>Surname: </label><br></td>
+                  <td><input type="text" placeholder=" Surname" required></td>
+                <tr>
+                  <td><label>Email: </label></td>
+                  <td><input type="email" placeholder=" Email address" required></td>
+                  <td><label>Mobile: </label></td>
+                  <td><input type="tel" placeholder=" Mobile Number" required pattern="[0-9]{10}" title="Enter valid 10 digit number"></td>
+                </tr>
+        </table>
+    <br><label>Gender: <input type="radio" name="Gender" value="male" > Male <input type="radio" name="Gender" value="female"> Female <input type="radio" name="Gender" value="other"> Other</label>
+	<br><label>Country:</label>
+	<select class="dropdown">
+	   <option value="India">India</option>
+	   <option value="Iran">Iran</option>
+	   <option value="Iraq">Iraq</option>
+	   <option value="Ireland">Ireland</option>
+	   <option value="Isle of Man">Isle of Man</option>
+	   <option value="Israel">Israel</option>
+   </select>
+	<br><br><label for="birthday">Birthday:</label>
+	<input type="date" id="birthday" name="birthday">
     <br><label>Password: <input type="password" required pattern=".{6,}" title="Minimum length should be 6"></label>
     <br><input type="checkbox" name=""> I agree to the terms and Conditions
     <br><button style="width:50%;" class="btn">Sign Up</button><input type="reset"  style="width:20%;margin-left:20px"><br>
